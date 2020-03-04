@@ -49,6 +49,8 @@ ARGS:
 
 ## Comparision with other Image Upscaling Algorithms
 
+Note that all algorithms produce visually better results when input images are larger.
+
 | Algorithm     | Image                                                                                                                     | Description                                    |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | Input Image   | ![Green Sea Shell](test/green_sea_shell.png) ![Wiki logo](test/wiki_logo.png)                                             | The input images. (40 by 40px and 109 by 40px) |
