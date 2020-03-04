@@ -1,5 +1,9 @@
 # Upscaler
 
+- [Upscaler](#upscaler)
+  - [Installation](#installation)
+  - [Usage](#usage)
+
 Upscaling images for fun and profit.
 
 ## Installation
