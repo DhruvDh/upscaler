@@ -4,6 +4,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Images with smooth Gradients](#images-with-smooth-gradients)
+  - [Random images from https://picsum.photos/](#random-images-from-httpspicsumphotos)
   - [Comparision with other Image Upscaling Algorithms](#comparision-with-other-image-upscaling-algorithms)
 
 Upscaling images for fun and profit - without any math calculating any new color values.
@@ -59,6 +60,19 @@ The heuristic used for upscaling works particularly well for gradients, I think.
 | ![3](test/gradients/3.png) | ![3](test/gradients/3_2x.png) | ![3](test/gradients/3_4x.png) |
 | ![5](test/gradients/5.jpeg) | ![5](test/gradients/5_2x.jpeg) | ![5](test/gradients/5_4x.jpeg) |
 
+## Random images from https://picsum.photos/
+
+| Input (256 by 256) | 2x upscale (512 by 512) | 4x upscale (1024 by 1024) |
+|--|--|--|
+| ![1](test/random/256_1.jpg) | ![1](test/random/256_1_2x.jpg) | ![1](test/random/256_1_4x.jpg) |
+| ![2](test/random/256_2.jpg) | ![2](test/random/256_2_2x.jpg) | ![2](test/random/256_2_4x.jpg) |
+| ![3](test/random/256_3.jpg) | ![3](test/random/256_3_2x.jpg) | ![3](test/random/256_3_4x.jpg) |
+
+| Input (512 by 512) | 2x upscale (1024 by 1024) | 4x upscale (2048 by 2048) |
+|--|--|--|
+| ![1](test/random/512_1.jpg) | ![1](test/random/512_1_2x.jpg) | ![1](test/random/512_1_4x.jpg) |
+| ![2](test/random/512_2.jpg) | ![2](test/random/512_2_2x.jpg) | ![2](test/random/512_2_4x.jpg) |
+| ![3](test/random/512_3.jpg) | ![3](test/random/512_3_2x.jpg) | ![3](test/random/512_3_4x.jpg) |
 
 ## Comparision with other Image Upscaling Algorithms
 

@@ -3,6 +3,8 @@ import os
 
 outs = []
 
+os.system("cargo install --git https://github.com/DhruvDh/upscaler")
+
 for ext in ["png", "jpg", "jpeg"]:
     outs.extend(glob.glob("./*_*x." + ext))
     outs.extend(glob.glob("./**/*_*x." + ext))
