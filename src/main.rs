@@ -55,8 +55,9 @@ fn upscale(height: usize, width: usize, bayered_img: Vec<u8>) -> (usize, usize, 
                         GridType::BGGR => {
                             let blue = bayered_img[index!(i, j)];
                             let green1 = bayered_img[index!(i, j + 1)] as usize;
-                            let green2 = bayered_img[index!(i + 1, j)] as usize;
-                            let green = (green1 + green2) / 2;
+                            // let green2 = bayered_img[index!(i + 1, j)] as usize;
+                            // let green = (green1 + green2) / 2;
+                            let green = green1;
                             let green = green as u8;
                             let red = bayered_img[index!(i + 1, j + 1)];
 
@@ -68,9 +69,10 @@ fn upscale(height: usize, width: usize, bayered_img: Vec<u8>) -> (usize, usize, 
                         },
                         GridType::GBRG => {
                             let blue = bayered_img[index!(i, j + 1)];
-                            let green1 = bayered_img[index!(i, j)] as usize;
+                            // let green1 = bayered_img[index!(i, j)] as usize;
                             let green2 = bayered_img[index!(i + 1, j + 1)] as usize;
-                            let green = (green1 + green2) / 2;
+                            // let green = (green1 + green2) / 2;
+                            let green = green2;
                             let green = green as u8;
                             let red = bayered_img[index!(i + 1, j)];
 
@@ -97,8 +99,9 @@ fn upscale(height: usize, width: usize, bayered_img: Vec<u8>) -> (usize, usize, 
                         GridType::GRBG => {
                             let blue = bayered_img[index!(i + 1, j)];
                             let green1 = bayered_img[index!(i, j)] as usize;
-                            let green2 = bayered_img[index!(i + 1, j + 1)] as usize;
-                            let green = (green1 + green2) / 2;
+                            // let green2 = bayered_img[index!(i + 1, j + 1)] as usize;
+                            // let green = (green1 + green2) / 2;
+                            let green = green1;
                             let green = green as u8;
                             let red = bayered_img[index!(i, j + 1)];
 
@@ -110,9 +113,10 @@ fn upscale(height: usize, width: usize, bayered_img: Vec<u8>) -> (usize, usize, 
                         },
                         GridType::RGGB => {
                             let blue = bayered_img[index!(i + 1, j + 1)];
-                            let green1 = bayered_img[index!(i, j + 1)] as usize;
+                            // let green1 = bayered_img[index!(i, j + 1)] as usize;
                             let green2 = bayered_img[index!(i + 1, j)] as usize;
-                            let green = (green1 + green2) / 2;
+                            // let green = (green1 + green2) / 2;
+                            let green = green2;
                             let green = green as u8;
                             let red = bayered_img[index!(i, j)];
 
