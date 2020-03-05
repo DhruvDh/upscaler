@@ -6,7 +6,7 @@
   - [Images with smooth Gradients](#images-with-smooth-gradients)
   - [Comparision with other Image Upscaling Algorithms](#comparision-with-other-image-upscaling-algorithms)
 
-Upscaling images for fun and profit.
+Upscaling images for fun and profit - without any math calculating any new color values.
 
 ## Installation
 
