@@ -3,6 +3,7 @@
 - [Upscaler](#upscaler)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Images with smooth Gradients](#images-with-smooth-gradients)
   - [Comparision with other Image Upscaling Algorithms](#comparision-with-other-image-upscaling-algorithms)
 
 Upscaling images for fun and profit.
@@ -46,6 +47,20 @@ ARGS:
     <INPUT>     The input image to upscale [possible types: hdr, bmp tga, tiff, dxt, gif, jpeg, png, pnm, webp]
     <OUTPUT>    The output image to write [possible types: jpeg, png]
 ```
+
+## Images with smooth Gradients
+
+The heurestic used for upscaling works particulary well for gradients, I think.
+
+| Input (256 by 256) | 2x upscale (512 by 512) | 4x upscale (1024 by 1024) |
+|--|--|--|
+| ![1](test/gradients/1.png) | ![1](test/gradients/1_2x.png) | ![1](test/gradients/1_4x.png) |
+| ![2](test/gradients/2.png) | ![2](test/gradients/2_2x.png) | ![2](test/gradients/2_4x.png) |
+| ![3](test/gradients/3.png) | ![3](test/gradients/3_2x.png) | ![3](test/gradients/3_4x.png) |
+| ![4](test/gradients/4.jpg) | ![4](test/gradients/4_2x.jpg) | ![4](test/gradients/4_4x.jpeg) |
+| ![5](test/gradients/5.jpeg) | ![5](test/gradients/5_2x.jpeg) | ![5](test/gradients/5_4x.jpeg) |
+| ![6](test/gradients/6.png) | ![6](test/gradients/6_2x.png) | ![6](test/gradients/6_4x.png) |
+
 
 ## Comparision with other Image Upscaling Algorithms
 
