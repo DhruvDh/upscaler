@@ -19,7 +19,7 @@ for out in outs:
         os.system(cmd)
 
     if "_4x" in out:
-        s = 2
+        s = 4
         _in = out.replace("_4x", "")
         cmd = f"upscaler {_in} {out} -s {s}"
         print(f"Running {cmd}")
