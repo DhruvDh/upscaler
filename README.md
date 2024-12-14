@@ -49,17 +49,6 @@ ARGS:
     <OUTPUT>    The output image to write [possible types: jpeg, png]
 ```
 
-## Images with smooth Gradients
-
-The heuristic used for upscaling works particularly well for gradients, I think.
-
-| Input (256 by 256) | 2x upscale (512 by 512) | 4x upscale (1024 by 1024) |
-|--|--|--|
-| ![1](test/gradients/1.png) | ![1](test/gradients/1_2x.png) | ![1](test/gradients/1_4x.png) |
-| ![2](test/gradients/2.png) | ![2](test/gradients/2_2x.png) | ![2](test/gradients/2_4x.png) |
-| ![3](test/gradients/3.png) | ![3](test/gradients/3_2x.png) | ![3](test/gradients/3_4x.png) |
-| ![5](test/gradients/5.jpeg) | ![5](test/gradients/5_2x.jpeg) | ![5](test/gradients/5_4x.jpeg) |
-
 ## Random images from https://picsum.photos/
 
 | Input (256 by 256) | 2x upscale (512 by 512) | 4x upscale (1024 by 1024) |
